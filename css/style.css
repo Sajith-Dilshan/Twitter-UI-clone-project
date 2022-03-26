@@ -221,3 +221,43 @@ main::-webkit-scrollbar{
 .post_profile-image{
     padding: 20px;
 }
+
+
+/* == aside  */
+
+aside{
+    flex: 0.3; 
+}
+
+.aside_input{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background-color);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.aside_input input{
+    border: none;
+    background-color: var(--twitter-background-color);
+    outline: none;
+}
+
+.aside_search-icon{
+    color: gray;
+}
+
+.aside_container{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.aside_container h2{
+    font-size: 18px;
+    font-weight: 800;
+}
