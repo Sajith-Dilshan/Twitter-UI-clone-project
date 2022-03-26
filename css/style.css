@@ -7,4 +7,82 @@
  * Author: sajith dilshan <sajithd784@gmail.com>
  */
 
- 
+
+ @font-face {
+    font-family: "TwitterChirp";
+    src: url("../fonts/chirp-regular-web.woff") format("woff2"),
+         url("../fonts/chirp-bold-web.woff") format("woff"),
+         url("../fonts/chirp-heavy-web.woff") format("woff");
+}
+
+html{
+    font-family: TwitterChirp, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --twitter-theme-color: #50b7f5;
+    --twitter-background-color: #e6ecf0;
+}
+
+.nav_logo{
+    width: 50px;
+    height: 30px;
+    color: var(--twitter-theme-color);
+    fill: currentColor;
+}
+
+.Menu_options{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Menu_options .material-icons{
+    padding: 20px;
+}
+
+.Menu_options h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.Menu_options:hover{
+    background-color: var(--twitter-background-color);
+    border-radius: 30px;
+    color: var(--twitter-theme-color);
+}
+
+.tweet_btn{
+    width: 100%;
+    background-color: var(--twitter-theme-color);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 50px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+nav{
+    flex: 0.2;
+    border-right: 1px solid var(--twitter-background-color);
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
