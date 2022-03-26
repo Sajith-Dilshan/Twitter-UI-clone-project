@@ -1,0 +1,10 @@
+{
+  "name": "twitter-gui-clon",
+  "version": "1.0.0",
+  "description": " simple Twitter GUI clone project using html and css",
+  "author": "sajith dilshan",
+  "license": "MIT",
+  "dependencies": {
+    "reset.css": "^2.0.2"
+  }
+}
